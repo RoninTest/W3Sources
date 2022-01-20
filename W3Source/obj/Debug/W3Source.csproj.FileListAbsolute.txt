@@ -1,0 +1,10 @@
+C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\W3Source.exe.config
+C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\W3Source.exe
+C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\W3Source.pdb
+C:\Users\Eren\source\repos\W3Source\W3Source\obj\Debug\W3Source.csproj.AssemblyReference.cache
+C:\Users\Eren\source\repos\W3Source\W3Source\obj\Debug\W3Source.Form1.resources
+C:\Users\Eren\source\repos\W3Source\W3Source\obj\Debug\W3Source.Properties.Resources.resources
+C:\Users\Eren\source\repos\W3Source\W3Source\obj\Debug\W3Source.csproj.GenerateResource.cache
+C:\Users\Eren\source\repos\W3Source\W3Source\obj\Debug\W3Source.csproj.CoreCompileInputs.cache
+C:\Users\Eren\source\repos\W3Source\W3Source\obj\Debug\W3Source.exe
+C:\Users\Eren\source\repos\W3Source\W3Source\obj\Debug\W3Source.pdb
