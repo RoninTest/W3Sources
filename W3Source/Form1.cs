@@ -18,7 +18,7 @@ namespace W3Source
         double sonuc;
         string name;
         int name1;
-        int total;
+        int total ;
 
         public Form1()
         {
