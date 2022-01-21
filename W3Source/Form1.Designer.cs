@@ -41,12 +41,24 @@ namespace W3Source
             this.btnHomework3 = new System.Windows.Forms.Button();
             this.lblTopic = new System.Windows.Forms.Label();
             this.lblHomeworks = new System.Windows.Forms.Label();
+            this.lblResultOfClone = new DevExpress.XtraEditors.LabelControl();
+            this.btnHomework4 = new System.Windows.Forms.Button();
+            this.btnHomework5 = new System.Windows.Forms.Button();
+            this.btnHomework6 = new System.Windows.Forms.Button();
+            this.btnHomework7 = new System.Windows.Forms.Button();
+            this.btnHomework10 = new System.Windows.Forms.Button();
+            this.btnHomework12 = new System.Windows.Forms.Button();
+            this.lblName = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.btnHomework15 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNumber1
             // 
+            this.txtNumber1.BackColor = System.Drawing.Color.Moccasin;
             this.txtNumber1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumber1.Location = new System.Drawing.Point(207, 53);
+            this.txtNumber1.MaxLength = 3250;
             this.txtNumber1.Name = "txtNumber1";
             this.txtNumber1.Size = new System.Drawing.Size(110, 31);
             this.txtNumber1.TabIndex = 0;
@@ -78,6 +90,7 @@ namespace W3Source
             // 
             // txtNumber2
             // 
+            this.txtNumber2.BackColor = System.Drawing.Color.Moccasin;
             this.txtNumber2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumber2.Location = new System.Drawing.Point(207, 104);
             this.txtNumber2.Name = "txtNumber2";
@@ -88,7 +101,7 @@ namespace W3Source
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(79, 194);
+            this.button1.Location = new System.Drawing.Point(57, 259);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 40);
             this.button1.TabIndex = 5;
@@ -100,7 +113,7 @@ namespace W3Source
             // 
             this.btnHomework2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomework2.ForeColor = System.Drawing.Color.Red;
-            this.btnHomework2.Location = new System.Drawing.Point(79, 240);
+            this.btnHomework2.Location = new System.Drawing.Point(57, 305);
             this.btnHomework2.Name = "btnHomework2";
             this.btnHomework2.Size = new System.Drawing.Size(106, 41);
             this.btnHomework2.TabIndex = 6;
@@ -124,7 +137,7 @@ namespace W3Source
             // 
             this.btnHomework3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHomework3.ForeColor = System.Drawing.Color.Red;
-            this.btnHomework3.Location = new System.Drawing.Point(79, 287);
+            this.btnHomework3.Location = new System.Drawing.Point(57, 352);
             this.btnHomework3.Name = "btnHomework3";
             this.btnHomework3.Size = new System.Drawing.Size(106, 40);
             this.btnHomework3.TabIndex = 8;
@@ -137,7 +150,7 @@ namespace W3Source
             this.lblTopic.AutoSize = true;
             this.lblTopic.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.lblTopic.Font = new System.Drawing.Font("Yu Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopic.Location = new System.Drawing.Point(266, 155);
+            this.lblTopic.Location = new System.Drawing.Point(244, 220);
             this.lblTopic.Name = "lblTopic";
             this.lblTopic.Size = new System.Drawing.Size(152, 19);
             this.lblTopic.TabIndex = 9;
@@ -154,12 +167,137 @@ namespace W3Source
             this.lblHomeworks.TabIndex = 10;
             this.lblHomeworks.Text = "Homeworks";
             // 
+            // lblResultOfClone
+            // 
+            this.lblResultOfClone.Appearance.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultOfClone.Appearance.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblResultOfClone.Appearance.Options.UseFont = true;
+            this.lblResultOfClone.Appearance.Options.UseForeColor = true;
+            this.lblResultOfClone.Location = new System.Drawing.Point(587, 9);
+            this.lblResultOfClone.Name = "lblResultOfClone";
+            this.lblResultOfClone.Size = new System.Drawing.Size(211, 25);
+            this.lblResultOfClone.TabIndex = 11;
+            this.lblResultOfClone.Text = "RESULT OF FOR LOOP";
+            // 
+            // btnHomework4
+            // 
+            this.btnHomework4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomework4.ForeColor = System.Drawing.Color.Red;
+            this.btnHomework4.Location = new System.Drawing.Point(57, 398);
+            this.btnHomework4.Name = "btnHomework4";
+            this.btnHomework4.Size = new System.Drawing.Size(106, 40);
+            this.btnHomework4.TabIndex = 12;
+            this.btnHomework4.Text = "Homework-4";
+            this.btnHomework4.UseVisualStyleBackColor = true;
+            this.btnHomework4.Click += new System.EventHandler(this.btnHomework4_Click);
+            // 
+            // btnHomework5
+            // 
+            this.btnHomework5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomework5.ForeColor = System.Drawing.Color.Red;
+            this.btnHomework5.Location = new System.Drawing.Point(185, 259);
+            this.btnHomework5.Name = "btnHomework5";
+            this.btnHomework5.Size = new System.Drawing.Size(106, 40);
+            this.btnHomework5.TabIndex = 13;
+            this.btnHomework5.Text = "Homework-5";
+            this.btnHomework5.UseVisualStyleBackColor = true;
+            this.btnHomework5.Click += new System.EventHandler(this.btnHomework5_Click);
+            // 
+            // btnHomework6
+            // 
+            this.btnHomework6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomework6.ForeColor = System.Drawing.Color.Red;
+            this.btnHomework6.Location = new System.Drawing.Point(185, 306);
+            this.btnHomework6.Name = "btnHomework6";
+            this.btnHomework6.Size = new System.Drawing.Size(106, 40);
+            this.btnHomework6.TabIndex = 14;
+            this.btnHomework6.Text = "Homework-6";
+            this.btnHomework6.UseVisualStyleBackColor = true;
+            this.btnHomework6.Click += new System.EventHandler(this.btnHomework6_Click);
+            // 
+            // btnHomework7
+            // 
+            this.btnHomework7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomework7.ForeColor = System.Drawing.Color.Red;
+            this.btnHomework7.Location = new System.Drawing.Point(185, 352);
+            this.btnHomework7.Name = "btnHomework7";
+            this.btnHomework7.Size = new System.Drawing.Size(106, 40);
+            this.btnHomework7.TabIndex = 15;
+            this.btnHomework7.Text = "Homework-7";
+            this.btnHomework7.UseVisualStyleBackColor = true;
+            this.btnHomework7.Click += new System.EventHandler(this.btnHomework7_Click);
+            // 
+            // btnHomework10
+            // 
+            this.btnHomework10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomework10.ForeColor = System.Drawing.Color.Red;
+            this.btnHomework10.Location = new System.Drawing.Point(185, 398);
+            this.btnHomework10.Name = "btnHomework10";
+            this.btnHomework10.Size = new System.Drawing.Size(106, 40);
+            this.btnHomework10.TabIndex = 16;
+            this.btnHomework10.Text = "Homework-10";
+            this.btnHomework10.UseVisualStyleBackColor = true;
+            this.btnHomework10.Click += new System.EventHandler(this.btnHomework8_Click);
+            // 
+            // btnHomework12
+            // 
+            this.btnHomework12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomework12.ForeColor = System.Drawing.Color.Red;
+            this.btnHomework12.Location = new System.Drawing.Point(297, 259);
+            this.btnHomework12.Name = "btnHomework12";
+            this.btnHomework12.Size = new System.Drawing.Size(106, 40);
+            this.btnHomework12.TabIndex = 17;
+            this.btnHomework12.Text = "Homework-12";
+            this.btnHomework12.UseVisualStyleBackColor = true;
+            this.btnHomework12.Click += new System.EventHandler(this.btnHomework12_Click);
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(106, 154);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(70, 27);
+            this.lblName.TabIndex = 18;
+            this.lblName.Text = "Name";
+            // 
+            // txtName
+            // 
+            this.txtName.BackColor = System.Drawing.Color.Moccasin;
+            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(207, 154);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(110, 31);
+            this.txtName.TabIndex = 19;
+            // 
+            // btnHomework15
+            // 
+            this.btnHomework15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHomework15.ForeColor = System.Drawing.Color.Red;
+            this.btnHomework15.Location = new System.Drawing.Point(297, 306);
+            this.btnHomework15.Name = "btnHomework15";
+            this.btnHomework15.Size = new System.Drawing.Size(106, 40);
+            this.btnHomework15.TabIndex = 20;
+            this.btnHomework15.Text = "Homework-15";
+            this.btnHomework15.UseVisualStyleBackColor = true;
+            this.btnHomework15.Click += new System.EventHandler(this.btnHomework15_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnHomework15);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.lblName);
+            this.Controls.Add(this.btnHomework12);
+            this.Controls.Add(this.btnHomework10);
+            this.Controls.Add(this.btnHomework7);
+            this.Controls.Add(this.btnHomework6);
+            this.Controls.Add(this.btnHomework5);
+            this.Controls.Add(this.btnHomework4);
+            this.Controls.Add(this.lblResultOfClone);
             this.Controls.Add(this.lblHomeworks);
             this.Controls.Add(this.lblTopic);
             this.Controls.Add(this.btnHomework3);
@@ -173,6 +311,7 @@ namespace W3Source
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,6 +330,16 @@ namespace W3Source
         private System.Windows.Forms.Button btnHomework3;
         private System.Windows.Forms.Label lblTopic;
         private System.Windows.Forms.Label lblHomeworks;
+        private DevExpress.XtraEditors.LabelControl lblResultOfClone;
+        private System.Windows.Forms.Button btnHomework4;
+        private System.Windows.Forms.Button btnHomework5;
+        private System.Windows.Forms.Button btnHomework6;
+        private System.Windows.Forms.Button btnHomework7;
+        private System.Windows.Forms.Button btnHomework10;
+        private System.Windows.Forms.Button btnHomework12;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Button btnHomework15;
     }
 }
 
