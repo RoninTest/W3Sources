@@ -13,7 +13,7 @@ namespace W3Source
     public partial class Form1 : Form
     {
 
-        int number1;
+        int number1; 
         int number2;
         double sonuc;
         string name;
