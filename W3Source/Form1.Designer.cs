@@ -29,9 +29,9 @@ namespace W3Source
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            DevExpress.XtraPrinting.BarCode.Code128Generator code128Generator2 = new DevExpress.XtraPrinting.BarCode.Code128Generator();
             this.txtNumber1 = new System.Windows.Forms.TextBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.lblNumber1 = new System.Windows.Forms.Label();
             this.lblNumber2 = new System.Windows.Forms.Label();
             this.txtNumber2 = new System.Windows.Forms.TextBox();
@@ -51,6 +51,15 @@ namespace W3Source
             this.lblName = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.btnHomework15 = new System.Windows.Forms.Button();
+            this.btnPairValue = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnEnabled = new System.Windows.Forms.Button();
+            this.svgImageBox1 = new DevExpress.XtraEditors.SvgImageBox();
+            this.barCodeControl1 = new DevExpress.XtraEditors.BarCodeControl();
+            this.zoomTrackBarControl1 = new DevExpress.XtraEditors.ZoomTrackBarControl();
+            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zoomTrackBarControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zoomTrackBarControl1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // txtNumber1
@@ -62,11 +71,6 @@ namespace W3Source
             this.txtNumber1.Name = "txtNumber1";
             this.txtNumber1.Size = new System.Drawing.Size(110, 31);
             this.txtNumber1.TabIndex = 0;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // lblNumber1
             // 
@@ -125,7 +129,7 @@ namespace W3Source
             // 
             this.btnSingle.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnSingle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSingle.Location = new System.Drawing.Point(377, 66);
+            this.btnSingle.Location = new System.Drawing.Point(377, 130);
             this.btnSingle.Name = "btnSingle";
             this.btnSingle.Size = new System.Drawing.Size(109, 26);
             this.btnSingle.TabIndex = 7;
@@ -282,12 +286,80 @@ namespace W3Source
             this.btnHomework15.UseVisualStyleBackColor = true;
             this.btnHomework15.Click += new System.EventHandler(this.btnHomework15_Click);
             // 
+            // btnPairValue
+            // 
+            this.btnPairValue.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnPairValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPairValue.Location = new System.Drawing.Point(377, 98);
+            this.btnPairValue.Name = "btnPairValue";
+            this.btnPairValue.Size = new System.Drawing.Size(109, 26);
+            this.btnPairValue.TabIndex = 21;
+            this.btnPairValue.Text = "Pair Value";
+            this.btnPairValue.UseVisualStyleBackColor = false;
+            this.btnPairValue.Click += new System.EventHandler(this.btnPairValue_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(492, 130);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(109, 26);
+            this.btnDelete.TabIndex = 22;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnEnabled
+            // 
+            this.btnEnabled.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnEnabled.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnabled.Location = new System.Drawing.Point(377, 162);
+            this.btnEnabled.Name = "btnEnabled";
+            this.btnEnabled.Size = new System.Drawing.Size(109, 26);
+            this.btnEnabled.TabIndex = 23;
+            this.btnEnabled.Text = "Enabled";
+            this.btnEnabled.UseVisualStyleBackColor = false;
+            this.btnEnabled.Click += new System.EventHandler(this.btnEnabled_Click);
+            // 
+            // svgImageBox1
+            // 
+            this.svgImageBox1.Location = new System.Drawing.Point(723, 360);
+            this.svgImageBox1.Name = "svgImageBox1";
+            this.svgImageBox1.Size = new System.Drawing.Size(75, 49);
+            this.svgImageBox1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("svgImageBox1.SvgImage")));
+            this.svgImageBox1.TabIndex = 24;
+            this.svgImageBox1.Text = "svgImageBox1";
+            // 
+            // barCodeControl1
+            // 
+            this.barCodeControl1.Location = new System.Drawing.Point(698, 415);
+            this.barCodeControl1.Name = "barCodeControl1";
+            this.barCodeControl1.Padding = new System.Windows.Forms.Padding(10, 2, 10, 0);
+            this.barCodeControl1.Size = new System.Drawing.Size(100, 23);
+            this.barCodeControl1.Symbology = code128Generator2;
+            this.barCodeControl1.TabIndex = 25;
+            // 
+            // zoomTrackBarControl1
+            // 
+            this.zoomTrackBarControl1.Location = new System.Drawing.Point(684, 12);
+            this.zoomTrackBarControl1.Name = "zoomTrackBarControl1";
+            this.zoomTrackBarControl1.Size = new System.Drawing.Size(104, 18);
+            this.zoomTrackBarControl1.TabIndex = 27;
+            this.zoomTrackBarControl1.EditValueChanged += new System.EventHandler(this.zoomTrackBarControl1_EditValueChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.zoomTrackBarControl1);
+            this.Controls.Add(this.barCodeControl1);
+            this.Controls.Add(this.svgImageBox1);
+            this.Controls.Add(this.btnEnabled);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnPairValue);
             this.Controls.Add(this.btnHomework15);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblName);
@@ -312,6 +384,9 @@ namespace W3Source
             this.ShowIcon = false;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zoomTrackBarControl1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.zoomTrackBarControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -320,7 +395,6 @@ namespace W3Source
         #endregion
 
         private System.Windows.Forms.TextBox txtNumber1;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Label lblNumber1;
         private System.Windows.Forms.Label lblNumber2;
         private System.Windows.Forms.TextBox txtNumber2;
@@ -340,6 +414,12 @@ namespace W3Source
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Button btnHomework15;
+        private System.Windows.Forms.Button btnPairValue;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnEnabled;
+        private DevExpress.XtraEditors.SvgImageBox svgImageBox1;
+        private DevExpress.XtraEditors.BarCodeControl barCodeControl1;
+        private DevExpress.XtraEditors.ZoomTrackBarControl zoomTrackBarControl1;
     }
 }
 

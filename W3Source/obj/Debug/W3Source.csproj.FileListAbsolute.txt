@@ -49,3 +49,10 @@ C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\es\DevExpress.Pdf.v20.1.C
 C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
 C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
 C:\Users\Eren\source\repos\W3Source\W3Source\obj\Debug\W3Source.csproj.CopyComplete
+C:\Users\Eren\source\repos\W3Source\W3Source\obj\Debug\W3Source.exe.licenses
+C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\Eren\source\repos\W3Source\W3Source\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll

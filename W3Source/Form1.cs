@@ -81,6 +81,11 @@ namespace W3Source
 
         }
 
+        private void btnPairValue_Click(object sender, EventArgs e)
+        {
+            txtName.Enabled = false;
+        }
+
         private void btnSingle_Click(object sender, EventArgs e)
         {
             txtNumber2.Enabled = false;
@@ -88,6 +93,20 @@ namespace W3Source
             txtName.Enabled = false;
             MessageBox.Show("Input must be single value");
 
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            txtNumber1.Clear();
+            txtNumber2.Clear();
+            txtName.Clear();
+        }
+
+        private void btnEnabled_Click(object sender, EventArgs e)
+        {
+            txtNumber1.Enabled = true;
+            txtNumber2.Enabled = true;
+            txtName.Enabled = true;
         }
 
         private void btnHomework3_Click(object sender, EventArgs e)
@@ -249,6 +268,11 @@ namespace W3Source
             }
             
 
+        }
+
+        private void zoomTrackBarControl1_EditValueChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
